@@ -2,6 +2,7 @@
 layout: page
 title: The Amazing API
 permalink: /
+sidebar: false
 ---
 # THE AMAZING API (now with AmazingScript!!)
 ![Introducing the Amazing API](images/1600x500_white_228B22_introducing-the-amazing-api.png)

@@ -1,7 +1,9 @@
 ---
 layout: page
-title: USING THE AMAZING API
+title: Using The Amazing API
 permalink: /USING_THE_API
+sidebar: false
+toc: true
 ---
 # USING THE AMAZING API
 

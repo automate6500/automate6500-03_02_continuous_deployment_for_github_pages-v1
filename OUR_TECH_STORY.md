@@ -1,7 +1,8 @@
 ---
 layout: page
-title: OUR TECH STORY
+title: Our Tech Story
 permalink: /OUR_TECH_STORY
+sidebar: false
 ---
 # OUR TECH STORY
 

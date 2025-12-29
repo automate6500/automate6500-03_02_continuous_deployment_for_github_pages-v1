@@ -2,6 +2,7 @@
 layout: page
 title: Meet The Team
 permalink: /MEET_THE_TEAM
+sidebar: false
 ---
 # MEET THE TEAM
 
