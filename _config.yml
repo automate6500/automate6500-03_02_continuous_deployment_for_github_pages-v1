@@ -23,10 +23,6 @@ defaults:
     values:
       layout: "page"
 
-# Include directories that start with underscore
-include:
-  - _plugins
-
 # Exclude from processing
 exclude:
   - README.md
