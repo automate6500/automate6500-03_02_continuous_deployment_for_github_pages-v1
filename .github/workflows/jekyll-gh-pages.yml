@@ -21,6 +21,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  JEKYLL_BASEURL: /${{ github.event.repository.name }}/
+
 jobs:
   # Build job
   build:
