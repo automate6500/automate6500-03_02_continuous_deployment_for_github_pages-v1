@@ -2,30 +2,40 @@
 layout: page
 title: Meet The Team
 permalink: /MEET_THE_TEAM
-sidebar: false
 ---
+
 # MEET THE TEAM
 
-![meet-the-team](images/1600x500_ffffff_5F9EA0_meet-the-team.png)
+<div class="team-grid">
+  <div class="team-member">
+    <div class="team-avatar">JD</div>
+    <h2>John Doe</h2>
+    <p class="role">Software Engineer</p>
+    <p>John is a software engineer with over 10 years of experience in the field. He has worked on several successful projects and enjoys hiking and playing tennis in his free time.</p>
+    <p><a href="{{ '/JOHN_DOE' | relative_url }}">Learn more about John →</a></p>
+  </div>
 
-## John Doe
-![team-member-1](images/200x200_ffffff_00BFFF_xd.png)
+  <div class="team-member">
+    <div class="team-avatar">JS</div>
+    <h2>Jane Smith</h2>
+    <p class="role">Data Scientist & Frontend Developer</p>
+    <p>Jane has a background in data science with expertise in machine learning and AI. She is also a frontend developer with a passion for design. She loves to create beautiful and intuitive user interfaces and has won several awards for her work.</p>
+    <p><a href="{{ '/JANE_SMITH' | relative_url }}">Learn more about Jane →</a></p>
+  </div>
 
-John is a software engineer with over 10 years of experience in the field. He has worked on several successful projects and enjoys hiking and playing tennis in his free time.
+  <div class="team-member">
+    <div class="team-avatar">BJ</div>
+    <h2>Bob Johnson</h2>
+    <p class="role">Data Scientist & UI/UX Designer</p>
+    <p>Bob is a data scientist with a PhD in statistics. He finds joy in creating wonderful interfaces that provide amazing UI/UX. He enjoys working on complex problems and has published several papers in top-tier journals.</p>
+    <p><a href="{{ '/BOB_JOHNSON' | relative_url }}">Learn more about Bob →</a></p>
+  </div>
 
-## Jane Smith
-![team-member-2](images/200x200_ffffff_00BFFF_xd.png)
-
-Jane has a background in data science with expertise in machine learning and AI.  She is also a frontend developer with a passion for design. She loves to create beautiful and intuitive user interfaces and has won several awards for her work.
-
-## Bob Johnson
-![team-member-3](images/200x200_ffffff_00BFFF_xd.png)
-
-Bob is a data scientist with a PhD in statistics.  He finds joy in creating wonderful interfaces that provide amazing UI/UX. He enjoys working on complex problems and has published several papers in top-tier journals.
-
-## Alice Lee
-![team-member-4](images/200x200_ffffff_00BFFF_xd.png)
-
-Alice has a background in networks, security, cloud infrastructure,  and business.  She serves as the Amazing API product manager and loves to build products that solve real-world problems.
-
-[Back to main page](INDEX.md) | [Our Tech Story](OUR_TECH_STORY.md) | [Using the API](USING_THE_API.md)
+  <div class="team-member">
+    <div class="team-avatar">AL</div>
+    <h2>Alice Lee</h2>
+    <p class="role">Product Manager</p>
+    <p>Alice has a background in networks, security, cloud infrastructure, and business. She serves as the Amazing API product manager and loves to build products that solve real-world problems.</p>
+    <p><a href="{{ '/ALICE_LEE' | relative_url }}">Learn more about Alice →</a></p>
+  </div>
+</div>

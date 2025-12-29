@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="{{ '/' | relative_url }}" class="logo">
+                    <div class="logo-icon">🚀</div>
+                    <span class="logo-text">Amazing API</span>
+                </a>
+                <nav class="main-nav">
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle">☰</button>
+                    <ul class="nav-list" id="nav-list">
+                        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                        <li><a href="{{ '/OUR_TECH_STORY' | relative_url }}" {% if page.url contains 'OUR_TECH_STORY' %}class="active"{% endif %}>Our Tech Story</a></li>
+                        <li><a href="{{ '/USING_THE_API' | relative_url }}" {% if page.url contains 'USING_THE_API' %}class="active"{% endif %}>Using the API</a></li>
+                        <li><a href="{{ '/OUR_CUSTOMERS' | relative_url }}" {% if page.url contains 'OUR_CUSTOMERS' %}class="active"{% endif %}>Our Customers</a></li>
+                        <li><a href="{{ '/MEET_THE_TEAM' | relative_url }}" {% if page.url contains 'MEET_THE_TEAM' %}class="active"{% endif %}>Meet the Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 The Amazing API. Built with AmazingScript.</p>
+            <nav class="footer-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/OUR_TECH_STORY' | relative_url }}">Our Tech Story</a>
+                <a href="{{ '/USING_THE_API' | relative_url }}">Using the API</a>
+                <a href="{{ '/OUR_CUSTOMERS' | relative_url }}">Our Customers</a>
+                <a href="{{ '/MEET_THE_TEAM' | relative_url }}">Meet the Team</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

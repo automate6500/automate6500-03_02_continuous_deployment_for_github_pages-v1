@@ -1,47 +1,29 @@
-# Site Settings
+---
 title: The Amazing API
-tagline: The world's most amazing API documentation
-description: Documentation and information about the Amazing API, including tech stories, usage guides, and team information.
-url: https://yourusername.github.io
+description: The world's most amazing API with AmazingScript
 baseurl: ""
+url: ""
 
-# Author
-author:
-  name: Amazing API Team
-  email: team@amazingapi.com
-  twitter: amazingapi
-  github: yourusername
-
-# Theme
-remote_theme: pages-themes/cayman@v0.2.0
-
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
-# GitHub Pages
-github: [metadata]
-
-# Build Settings
+# Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
+plugins:
+  - jekyll-feed
 
-# Navigation
-tabs:
-  - title: Home
-    url: /
-  - title: Our Tech Story
-    url: /OUR_TECH_STORY
-  - title: Using the API
-    url: /USING_THE_API
-  - title: Meet the Team
-    url: /MEET_THE_TEAM
+# Collections
+collections:
+  pages:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
 
 # Exclude from processing
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor
-  - .git
-  - .gitignore
