@@ -3,6 +3,7 @@ title: The Amazing API
 description: The world's most amazing API with AmazingScript
 baseurl: ""
 url: ""
+theme: jekyll-theme-minimal
 
 # Build settings
 markdown: kramdown
@@ -25,7 +26,6 @@ defaults:
 # Include directories that start with underscore
 include:
   - _plugins
-  - _layouts
 
 # Exclude from processing
 exclude:
