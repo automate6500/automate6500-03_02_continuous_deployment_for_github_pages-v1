@@ -13,11 +13,10 @@ author:
   github: yourusername
 
 # Theme
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: pages-themes/cayman@v0.2.0
+
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-sitemap
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # GitHub Pages
 github: [metadata]
@@ -26,13 +25,6 @@ github: [metadata]
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-
-# Chirpy Theme Settings
-theme_mode: light
-social:
-  github: yourusername
-  twitter: amazingapi
-  email: team@amazingapi.com
 
 # Navigation
 tabs:
